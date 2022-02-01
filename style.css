@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: max-content;
+}
+
+.box {
+    width: max-content;
+    padding: 40px;
+    height: max-content;
+    position: fixed;
+    z-index: 1;
+    transition: 0.3s;
+    top: 40%;
+    left: calc(50% - 50px);
+}
+
+.box button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

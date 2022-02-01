@@ -19,7 +19,7 @@ body {
     height: max-content;
     position: fixed;
     z-index: 1;
-    transition: 0.3s;
+    transition: 0.1s;
     top: 40%;
     left: calc(50% - 50px);
 }
